@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HistorialEnfermedades</string>
+    <string name="inicio_sesion">Inicio de sesión</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="listado">Listado</string>
+    <string name="registro">Registro</string>
+    <string name="fecha">Fecha</string>
+    <string name="paciente">Paciente</string>
+    <string name="doctor">Doctor</string>
+    <string name="telefono">Teléfono</string>
+    <string name="malestar">Malestar</string>
+    <string name="butonsesion">Iniciar sesión</string>
+    <string name="butonreceta">Receta</string>
+    <string name="butonguardar">Guardar</string>
+    <string name="itemfecha">Fecha:</string>
+    <string name="itempaciente">Paciente: </string>
+    <string name="itemdoctor">Doctor: </string>
+    <string name="itemmalestar">Malestar: </string>
+    <string name="itemtel">Tel: </string>
+
+</resources>

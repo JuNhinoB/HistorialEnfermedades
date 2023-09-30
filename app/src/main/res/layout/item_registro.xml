@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_registro.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Puedes personalizar la vista de cada elemento de registro aquí -->
+
+
+    <TextView
+        android:id="@+id/textViewPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/itempaciente" />
+    <TextView
+        android:id="@+id/textViewMalestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/itemmalestar" />
+    <TextView
+        android:id="@+id/textViewDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/itemdoctor" />
+
+    <TextView
+        android:id="@+id/textViewTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/itemtel" />
+
+    <!-- Agrega más vistas para mostrar otros detalles del registro -->
+
+</LinearLayout>

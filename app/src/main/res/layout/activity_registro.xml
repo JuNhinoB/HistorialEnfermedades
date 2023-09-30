@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Vista.RegistroActivity">
+
+    <TextView
+        android:id="@+id/textViewRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:layout_below="@id/textViewRegistro"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/texto"/>
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa la fecha" />
+    <TextView
+        android:id="@+id/textViewPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paciente"
+        android:layout_below="@id/textViewFecha"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/texto"/>
+
+
+    <EditText
+        android:id="@+id/editTextPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del paciente"
+        />
+    <TextView
+        android:id="@+id/textViewDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doctor"
+        android:textColor="@color/texto"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewPaciente"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del doctor"
+        />
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:layout_below="@id/textViewDoctor"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/texto"/>
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono del doctor"
+        />
+    <TextView
+        android:id="@+id/textViewMalestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/malestar"
+        android:layout_below="@id/textViewTelefono"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/texto"/>
+
+    <EditText
+        android:id="@+id/editTextMalestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describa el malestar presentado"
+        />
+
+    <Button
+        android:id="@+id/buttonReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butonreceta"
+        android:layout_below="@id/textViewFecha"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@color/botones"/>
+
+
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:src="@drawable/imagen"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"/>
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butonguardar"
+        android:layout_below="@id/imagen"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:backgroundTint="@color/botones"/>
+
+
+</LinearLayout>

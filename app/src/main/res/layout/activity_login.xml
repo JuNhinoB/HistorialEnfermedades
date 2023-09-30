@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Vista.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicio_sesion"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="17sp"
+        android:textColor="@color/texto"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:maxLength="100"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/textViewEmailError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textColor="#FF0000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contraseña"
+        android:textSize="17sp"
+        android:textColor="@color/texto"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu contraseña"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:maxLength="100"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f9f9"
+        android:text="@string/butonsesion"
+        app:backgroundTint="@color/botones" />
+
+</LinearLayout>
